@@ -9,11 +9,13 @@ module.exports = function (app) {
   app.post("/api/notes", (req, res) => {
     // adding a note
     // parse then push
+    // return added
   });
   app.delete("/api/notes", (req, res) => {
     // deleting a note
     // send notes
     // identify note by id
     // remove from note array
+    // return deleted
   });
 };
